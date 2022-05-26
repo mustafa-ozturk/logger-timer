@@ -32,8 +32,7 @@ Logger& Logger::getInstance()
 
 
 Logger::Logger()
-        : m_priority(LogPriority::DebugPriority),
-          m_logTypesTerminal({
+        : m_logTypesTerminal({
               {LogPriority::TimerPriority,    TColors::BoldYellow("[TIMER]\t\t")},
               {LogPriority::DebugPriority,    TColors::BoldBlue("[DEBUG]\t\t")},
               {LogPriority::InfoPriority,     TColors::BoldGreen("[INFO]\t\t")},
@@ -44,9 +43,7 @@ Logger::Logger()
               {LogPriority::DebugPriority,    "[DEBUG]"},
               {LogPriority::InfoPriority,     "[INFO]"},
               {LogPriority::ErrorPriority,    "[ERROR]"},
-          }),
-          m_file(nullptr),
-          m_filePath(nullptr)
+          })
 {
 }
 

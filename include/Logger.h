@@ -82,11 +82,11 @@ private:
     ~Logger();
 
     static Logger& getInstance();
-    LogPriority m_priority;
     const std::map<LogPriority, std::string> m_logTypesTerminal;
     const std::map<LogPriority, const char*> m_logTypesTxt;
-    FILE* m_file;
-    const char* m_filePath;
+    LogPriority m_priority = LogPriority::DebugPriority;
+    FILE* m_file = nullptr;
+    const char* m_filePath = nullptr;
 
     void appendFileOutput();
 

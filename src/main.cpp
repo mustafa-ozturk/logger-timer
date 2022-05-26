@@ -1,14 +1,10 @@
 #include <iostream>
 #include "Logger.h"
 #include "Timer.h"
-#include "Player.h"
 
 
 int main()
 {
-    Player player;
-    std::cout << "player name: " << player.GetName() << std::endl;
-
     Logger::EnableFileOutput();
     Logger::setPriority(Logger::TimerPriority);
 

@@ -46,3 +46,15 @@
 [ERROR]	05/23/22::11:03:56 PM
 		Test Message
 		in /home/wooden/Dev/wip/src/main.cpp:23
+[TIMER]	05/26/22::03:36:05 PM
+		for loop duration: 0.126000 ms
+		in /home/wooden/Dev/wip/src/main.cpp:12
+[DEBUG]	05/26/22::03:36:05 PM
+		Test Message
+		in /home/wooden/Dev/wip/src/main.cpp:17
+[INFO]	05/26/22::03:36:05 PM
+		Test Message
+		in /home/wooden/Dev/wip/src/main.cpp:18
+[ERROR]	05/26/22::03:36:05 PM
+		Test Message
+		in /home/wooden/Dev/wip/src/main.cpp:19
